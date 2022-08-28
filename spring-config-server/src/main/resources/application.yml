@@ -7,8 +7,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/ijayakantha/spring-config-server
-          search-paths: server-config/
+          uri: https://github.com/trantrongdai/server-config
+          search-paths: config-server/
 server:
   port: 8888
 management:
